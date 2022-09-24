@@ -1,0 +1,2017 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* body {
+            background-image: url(../image/backgroundimage2.jpg);
+            background-repeat: no-repeat;
+background-color: rgba(127, 251, 255, 0.075);
+        } */
+
+header {
+
+    border-bottom: 1px solid black;
+    height: 50px;
+    background-color: #18425426;
+    padding-top: 50px;
+}
+
+#logo {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    font-size: 30px;
+    color: rgb(36, 36, 32);
+    float: left;
+    padding-bottom: 20px solid rgb(9, 71, 141);
+    margin-left: 20px;
+
+}
+
+nave {
+    float: right;
+    margin-top: 200px;
+}
+
+span a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 5px;
+    color: rgb(36, 87, 182);
+
+}
+
+.first-letter {
+    color: blue;
+}
+
+#secend-letter {
+    color: orangered;
+}
+
+#third-letter {
+    color: yellow;
+}
+
+#furth-letter {
+    color: green !important;
+}
+
+#fifth-letter {
+    color: red;
+}
+
+span a:hover {
+    padding: 15px;
+    height: 15px;
+    width: 15px;
+    background-color: #00158c46;
+    color: rgb(236, 236, 229);
+}
+
+#slider-section {
+    height: 500px;
+    width: 100%;
+
+}
+
+#slider-section img {
+    height: 500px;
+    width: 100%;
+}
+
+#marquee-slider {
+    height: 50px;
+    width: 100%;
+
+}
+
+#marquee-slider h1 {
+    color: rgb(25, 115, 199);
+    margin-top: 20px;
+}
+
+#our-products {
+    width: 100%;
+    height: auto;
+
+}
+
+.image1 {
+    height: 500px;
+    width: 290px;
+    border: 10px solid rgb(214, 206, 207);
+    margin-left: 20px;
+    float: left;
+}
+
+.image1 img {
+    height: 300px;
+    width: 290px;
+
+}
+
+.image1 h4 {
+    color: rgb(25, 115, 199);
+    text-align: center;
+    padding: 15px;
+}
+
+.image1 p {
+    padding: 5px;
+    text-align: justify;
+}
+
+.image1 button {
+    margin-left: 100px;
+    padding: 5px;
+}
+
+.image1 button:hover {
+    background-color: green;
+    color: white;
+    border: 1px solid blue;
+}
+
+#our-products h1 {
+    text-align: center;
+    color: rgb(25, 115, 199);
+    padding: 20px;
+}
+
+.testimonial {
+    height: auto;
+    width: 100%;
+
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.testimonial1 {
+    height: 300px;
+    width: 290px;
+    border: 10px solid rgb(214, 206, 207);
+    margin-top: 100px;
+    margin-left: 20px;
+    float: left;
+    border-radius: 40px 0px 40px;
+}
+
+.testimonial h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.testimonial1 img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin-left: 100px;
+    border: 10px solid rgb(214, 206, 207);
+}
+
+.testimonial1 p {
+    text-align: justify;
+    padding: 10px;
+}
+
+.testimonial1 h4 {
+    text-align: center;
+}
+
+.footer1 {
+    width: 100%;
+    height: 200px;
+
+}
+
+.aboutus {
+    height: 350px;
+    width: 23%;
+
+    float: left;
+    margin-left: 20px;
+}
+
+.aboutus h1 {
+    text-align: center;
+    color: rgb(25, 115, 199);
+    margin-top: 50px;
+
+}
+
+.aboutus p {
+    height: 300px;
+    width: 290;
+    text-align: justify;
+    padding: 10px;
+}
+
+.copyright {
+    width: 100%;
+    height: 100px;
+
+
+}
+
+.copyright h2 {
+    text-align: center;
+    color: rgb(25, 115, 199);
+}
+
+/*--------------------------Media querys-----------------------------*/
+
+
+/* Smartphones (portrait and landscape) ---------- */
+@media screen and (min-width: 320px) and (max-width: 480px){
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    /* body {
+                background-image: url(../image/backgroundimage2.jpg);
+                background-repeat: no-repeat;
+    background-color: rgba(127, 251, 255, 0.075);
+            } */
+    
+    header {
+    
+        border-bottom: 1px solid black;
+        height: 50px;
+        background-color: #18425426;
+        padding-top: 50px;
+    }
+    
+    #logo {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 50%;
+        font-size: 30px;
+        color: rgb(36, 36, 32);
+        float: left;
+        padding-bottom: 20px solid rgb(9, 71, 141);
+        margin-left: 20px;
+    
+    }
+    
+    nave {
+        float: right;
+        margin-top: 200px;
+    }
+    
+    span a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+        padding-left: 5px;
+        color: rgb(36, 87, 182);
+    
+    }
+    
+    .first-letter {
+        color: blue;
+    }
+    
+    #secend-letter {
+        color: orangered;
+    }
+    
+    #third-letter {
+        color: yellow;
+    }
+    
+    #furth-letter {
+        color: green !important;
+    }
+    
+    #fifth-letter {
+        color: red;
+    }
+    
+    span a:hover {
+        padding: 15px;
+        height: 15px;
+        width: 15px;
+        background-color: #00158c46;
+        color: rgb(236, 236, 229);
+    }
+    
+    #slider-section {
+        height: 500px;
+        width: 100%;
+    
+    }
+    
+    #slider-section img {
+        height: 500px;
+        width: 100%;
+    }
+    
+    #marquee-slider {
+        height: 50px;
+        width: 100%;
+    
+    }
+    
+    #marquee-slider h1 {
+        color: rgb(25, 115, 199);
+        margin-top: 20px;
+    }
+    
+    #our-products {
+        width: 100%;
+        height: auto;
+    
+    }
+    
+    .image1 {
+        height: 500px;
+        width: 290px;
+        border: 10px solid rgb(214, 206, 207);
+        margin-left: 20px;
+        float: left;
+    }
+    
+    .image1 img {
+        height: 300px;
+        width: 290px;
+    
+    }
+    
+    .image1 h4 {
+        color: rgb(25, 115, 199);
+        text-align: center;
+        padding: 15px;
+    }
+    
+    .image1 p {
+        padding: 5px;
+        text-align: justify;
+    }
+    
+    .image1 button {
+        margin-left: 100px;
+        padding: 5px;
+    }
+    
+    .image1 button:hover {
+        background-color: green;
+        color: white;
+        border: 1px solid blue;
+    }
+    
+    #our-products h1 {
+        text-align: center;
+        color: rgb(25, 115, 199);
+        padding: 20px;
+    }
+    
+    .testimonial {
+        height: auto;
+        width: 100%;
+    
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    
+    .testimonial1 {
+        height: 300px;
+        width: 290px;
+        border: 10px solid rgb(214, 206, 207);
+        margin-top: 100px;
+        margin-left: 20px;
+        float: left;
+        border-radius: 40px 0px 40px;
+    }
+    
+    .testimonial h1 {
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    .testimonial1 img {
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        margin-left: 100px;
+        border: 10px solid rgb(214, 206, 207);
+    }
+    
+    .testimonial1 p {
+        text-align: justify;
+        padding: 10px;
+    }
+    
+    .testimonial1 h4 {
+        text-align: center;
+    }
+    
+    .footer1 {
+        width: 100%;
+        height: 200px;
+    
+    }
+    
+    .aboutus {
+        height: 350px;
+        width: 23%;
+    
+        float: left;
+        margin-left: 20px;
+    }
+    
+    .aboutus h1 {
+        text-align: center;
+        color: rgb(25, 115, 199);
+        margin-top: 50px;
+    
+    }
+    
+    .aboutus p {
+        height: 300px;
+        width: 290;
+        text-align: justify;
+        padding: 10px;
+    }
+    
+    .copyright {
+        width: 100%;
+        height: 100px;
+    
+    
+    }
+    
+    .copyright h2 {
+        text-align: center;
+        color: rgb(25, 115, 199);
+    }
+}
+/* Smartphones (portrait) ---------- */
+@media screen and (max-width: 320px){
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    /* body {
+                background-image: url(../image/backgroundimage2.jpg);
+                background-repeat: no-repeat;
+    background-color: rgba(127, 251, 255, 0.075);
+            } */
+    
+    header {
+    
+        border-bottom: 1px solid black;
+        height: 50px;
+        background-color: #18425426;
+        padding-top: 50px;
+    }
+    
+    #logo {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 50%;
+        font-size: 30px;
+        color: rgb(36, 36, 32);
+        float: left;
+        padding-bottom: 20px solid rgb(9, 71, 141);
+        margin-left: 20px;
+    
+    }
+    
+    nave {
+        float: right;
+        margin-top: 200px;
+    }
+    
+    span a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+        padding-left: 5px;
+        color: rgb(36, 87, 182);
+    
+    }
+    
+    .first-letter {
+        color: blue;
+    }
+    
+    #secend-letter {
+        color: orangered;
+    }
+    
+    #third-letter {
+        color: yellow;
+    }
+    
+    #furth-letter {
+        color: green !important;
+    }
+    
+    #fifth-letter {
+        color: red;
+    }
+    
+    span a:hover {
+        padding: 15px;
+        height: 15px;
+        width: 15px;
+        background-color: #00158c46;
+        color: rgb(236, 236, 229);
+    }
+    
+    #slider-section {
+        height: 500px;
+        width: 100%;
+    
+    }
+    
+    #slider-section img {
+        height: 500px;
+        width: 100%;
+    }
+    
+    #marquee-slider {
+        height: 50px;
+        width: 100%;
+    
+    }
+    
+    #marquee-slider h1 {
+        color: rgb(25, 115, 199);
+        margin-top: 20px;
+    }
+    
+    #our-products {
+        width: 100%;
+        height: auto;
+    
+    }
+    
+    .image1 {
+        height: 500px;
+        width: 290px;
+        border: 10px solid rgb(214, 206, 207);
+        margin-left: 20px;
+        float: left;
+    }
+    
+    .image1 img {
+        height: 300px;
+        width: 290px;
+    
+    }
+    
+    .image1 h4 {
+        color: rgb(25, 115, 199);
+        text-align: center;
+        padding: 15px;
+    }
+    
+    .image1 p {
+        padding: 5px;
+        text-align: justify;
+    }
+    
+    .image1 button {
+        margin-left: 100px;
+        padding: 5px;
+    }
+    
+    .image1 button:hover {
+        background-color: green;
+        color: white;
+        border: 1px solid blue;
+    }
+    
+    #our-products h1 {
+        text-align: center;
+        color: rgb(25, 115, 199);
+        padding: 20px;
+    }
+    
+    .testimonial {
+        height: auto;
+        width: 100%;
+    
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    
+    .testimonial1 {
+        height: 300px;
+        width: 290px;
+        border: 10px solid rgb(214, 206, 207);
+        margin-top: 100px;
+        margin-left: 20px;
+        float: left;
+        border-radius: 40px 0px 40px;
+    }
+    
+    .testimonial h1 {
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    .testimonial1 img {
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        margin-left: 100px;
+        border: 10px solid rgb(214, 206, 207);
+    }
+    
+    .testimonial1 p {
+        text-align: justify;
+        padding: 10px;
+    }
+    
+    .testimonial1 h4 {
+        text-align: center;
+    }
+    
+    .footer1 {
+        width: 100%;
+        height: 200px;
+    
+    }
+    
+    .aboutus {
+        height: 350px;
+        width: 23%;
+    
+        float: left;
+        margin-left: 20px;
+    }
+    
+    .aboutus h1 {
+        text-align: center;
+        color: rgb(25, 115, 199);
+        margin-top: 50px;
+    
+    }
+    
+    .aboutus p {
+        height: 300px;
+        width: 290;
+        text-align: justify;
+        padding: 10px;
+    }
+    
+    .copyright {
+        width: 100%;
+        height: 100px;
+    
+    
+    }
+    
+    .copyright h2 {
+        text-align: center;
+        color: rgb(25, 115, 199);
+    }
+}
+/* Smartphones (landscape) ---------- */
+@media screen and (min-width: 321px){
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    /* body {
+                background-image: url(../image/backgroundimage2.jpg);
+                background-repeat: no-repeat;
+    background-color: rgba(127, 251, 255, 0.075);
+            } */
+    
+    header {
+    
+        border-bottom: 1px solid black;
+        height: 50px;
+        background-color: #18425426;
+        padding-top: 50px;
+    }
+    
+    #logo {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 50%;
+        font-size: 30px;
+        color: rgb(36, 36, 32);
+        float: left;
+        padding-bottom: 20px solid rgb(9, 71, 141);
+        margin-left: 20px;
+    
+    }
+    
+    nave {
+        float: right;
+        margin-top: 200px;
+    }
+    
+    span a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+        padding-left: 5px;
+        color: rgb(36, 87, 182);
+    
+    }
+    
+    .first-letter {
+        color: blue;
+    }
+    
+    #secend-letter {
+        color: orangered;
+    }
+    
+    #third-letter {
+        color: yellow;
+    }
+    
+    #furth-letter {
+        color: green !important;
+    }
+    
+    #fifth-letter {
+        color: red;
+    }
+    
+    span a:hover {
+        padding: 15px;
+        height: 15px;
+        width: 15px;
+        background-color: #00158c46;
+        color: rgb(236, 236, 229);
+    }
+    
+    #slider-section {
+        height: 500px;
+        width: 100%;
+    
+    }
+    
+    #slider-section img {
+        height: 500px;
+        width: 100%;
+    }
+    
+    #marquee-slider {
+        height: 50px;
+        width: 100%;
+    
+    }
+    
+    #marquee-slider h1 {
+        color: rgb(25, 115, 199);
+        margin-top: 20px;
+    }
+    
+    #our-products {
+        width: 100%;
+        height: auto;
+    
+    }
+    
+    .image1 {
+        height: 500px;
+        width: 290px;
+        border: 10px solid rgb(214, 206, 207);
+        margin-left: 20px;
+        float: left;
+    }
+    
+    .image1 img {
+        height: 300px;
+        width: 290px;
+    
+    }
+    
+    .image1 h4 {
+        color: rgb(25, 115, 199);
+        text-align: center;
+        padding: 15px;
+    }
+    
+    .image1 p {
+        padding: 5px;
+        text-align: justify;
+    }
+    
+    .image1 button {
+        margin-left: 100px;
+        padding: 5px;
+    }
+    
+    .image1 button:hover {
+        background-color: green;
+        color: white;
+        border: 1px solid blue;
+    }
+    
+    #our-products h1 {
+        text-align: center;
+        color: rgb(25, 115, 199);
+        padding: 20px;
+    }
+    
+    .testimonial {
+        height: auto;
+        width: 100%;
+    
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    
+    .testimonial1 {
+        height: 300px;
+        width: 290px;
+        border: 10px solid rgb(214, 206, 207);
+        margin-top: 100px;
+        margin-left: 20px;
+        float: left;
+        border-radius: 40px 0px 40px;
+    }
+    
+    .testimonial h1 {
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    .testimonial1 img {
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        margin-left: 100px;
+        border: 10px solid rgb(214, 206, 207);
+    }
+    
+    .testimonial1 p {
+        text-align: justify;
+        padding: 10px;
+    }
+    
+    .testimonial1 h4 {
+        text-align: center;
+    }
+    
+    .footer1 {
+        width: 100%;
+        height: 200px;
+    
+    }
+    
+    .aboutus {
+        height: 350px;
+        width: 23%;
+    
+        float: left;
+        margin-left: 20px;
+    }
+    
+    .aboutus h1 {
+        text-align: center;
+        color: rgb(25, 115, 199);
+        margin-top: 50px;
+    
+    }
+    
+    .aboutus p {
+        height: 300px;
+        width: 290;
+        text-align: justify;
+        padding: 10px;
+    }
+    
+    .copyright {
+        width: 100%;
+        height: 100px;
+    
+    
+    }
+    
+    .copyright h2 {
+        text-align: center;
+        color: rgb(25, 115, 199);
+    }
+}
+/* Tablets, iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    /* body {
+                background-image: url(../image/backgroundimage2.jpg);
+                background-repeat: no-repeat;
+    background-color: rgba(127, 251, 255, 0.075);
+            } */
+    
+    header {
+    
+        border-bottom: 1px solid black;
+        height: 50px;
+        background-color: #18425426;
+        padding-top: 50px;
+    }
+    
+    #logo {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 50%;
+        font-size: 30px;
+        color: rgb(36, 36, 32);
+        float: left;
+        padding-bottom: 20px solid rgb(9, 71, 141);
+        margin-left: 20px;
+    
+    }
+    
+    nave {
+        float: right;
+        margin-top: 200px;
+    }
+    
+    span a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+        padding-left: 5px;
+        color: rgb(36, 87, 182);
+    
+    }
+    
+    .first-letter {
+        color: blue;
+    }
+    
+    #secend-letter {
+        color: orangered;
+    }
+    
+    #third-letter {
+        color: yellow;
+    }
+    
+    #furth-letter {
+        color: green !important;
+    }
+    
+    #fifth-letter {
+        color: red;
+    }
+    
+    span a:hover {
+        padding: 15px;
+        height: 15px;
+        width: 15px;
+        background-color: #00158c46;
+        color: rgb(236, 236, 229);
+    }
+    
+    #slider-section {
+        height: 500px;
+        width: 100%;
+    
+    }
+    
+    #slider-section img {
+        height: 500px;
+        width: 100%;
+    }
+    
+    #marquee-slider {
+        height: 50px;
+        width: 100%;
+    
+    }
+    
+    #marquee-slider h1 {
+        color: rgb(25, 115, 199);
+        margin-top: 20px;
+    }
+    
+    #our-products {
+        width: 100%;
+        height: auto;
+    
+    }
+    
+    .image1 {
+        height: 500px;
+        width: 290px;
+        border: 10px solid rgb(214, 206, 207);
+        margin-left: 20px;
+        float: left;
+    }
+    
+    .image1 img {
+        height: 300px;
+        width: 290px;
+    
+    }
+    
+    .image1 h4 {
+        color: rgb(25, 115, 199);
+        text-align: center;
+        padding: 15px;
+    }
+    
+    .image1 p {
+        padding: 5px;
+        text-align: justify;
+    }
+    
+    .image1 button {
+        margin-left: 100px;
+        padding: 5px;
+    }
+    
+    .image1 button:hover {
+        background-color: green;
+        color: white;
+        border: 1px solid blue;
+    }
+    
+    #our-products h1 {
+        text-align: center;
+        color: rgb(25, 115, 199);
+        padding: 20px;
+    }
+    
+    .testimonial {
+        height: auto;
+        width: 100%;
+    
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    
+    .testimonial1 {
+        height: 300px;
+        width: 290px;
+        border: 10px solid rgb(214, 206, 207);
+        margin-top: 100px;
+        margin-left: 20px;
+        float: left;
+        border-radius: 40px 0px 40px;
+    }
+    
+    .testimonial h1 {
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    .testimonial1 img {
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        margin-left: 100px;
+        border: 10px solid rgb(214, 206, 207);
+    }
+    
+    .testimonial1 p {
+        text-align: justify;
+        padding: 10px;
+    }
+    
+    .testimonial1 h4 {
+        text-align: center;
+    }
+    
+    .footer1 {
+        width: 100%;
+        height: 200px;
+    
+    }
+    
+    .aboutus {
+        height: 350px;
+        width: 23%;
+    
+        float: left;
+        margin-left: 20px;
+    }
+    
+    .aboutus h1 {
+        text-align: center;
+        color: rgb(25, 115, 199);
+        margin-top: 50px;
+    
+    }
+    
+    .aboutus p {
+        height: 300px;
+        width: 290;
+        text-align: justify;
+        padding: 10px;
+    }
+    
+    .copyright {
+        width: 100%;
+        height: 100px;
+    
+    
+    }
+    
+    .copyright h2 {
+        text-align: center;
+        color: rgb(25, 115, 199);
+    }
+}
+/* Tablets, iPads (portrait) ---------- */
+@media screen and (min-width: 768px){
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    /* body {
+                background-image: url(../image/backgroundimage2.jpg);
+                background-repeat: no-repeat;
+    background-color: rgba(127, 251, 255, 0.075);
+            } */
+    
+    header {
+    
+        border-bottom: 1px solid black;
+        height: 50px;
+        background-color: #18425426;
+        padding-top: 50px;
+    }
+    
+    #logo {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 50%;
+        font-size: 30px;
+        color: rgb(36, 36, 32);
+        float: left;
+        padding-bottom: 20px solid rgb(9, 71, 141);
+        margin-left: 20px;
+    
+    }
+    
+    nave {
+        float: right;
+        margin-top: 200px;
+    }
+    
+    span a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+        padding-left: 5px;
+        color: rgb(36, 87, 182);
+    
+    }
+    
+    .first-letter {
+        color: blue;
+    }
+    
+    #secend-letter {
+        color: orangered;
+    }
+    
+    #third-letter {
+        color: yellow;
+    }
+    
+    #furth-letter {
+        color: green !important;
+    }
+    
+    #fifth-letter {
+        color: red;
+    }
+    
+    span a:hover {
+        padding: 15px;
+        height: 15px;
+        width: 15px;
+        background-color: #00158c46;
+        color: rgb(236, 236, 229);
+    }
+    
+    #slider-section {
+        height: 500px;
+        width: 100%;
+    
+    }
+    
+    #slider-section img {
+        height: 500px;
+        width: 100%;
+    }
+    
+    #marquee-slider {
+        height: 50px;
+        width: 100%;
+    
+    }
+    
+    #marquee-slider h1 {
+        color: rgb(25, 115, 199);
+        margin-top: 20px;
+    }
+    
+    #our-products {
+        width: 100%;
+        height: auto;
+    
+    }
+    
+    .image1 {
+        height: 500px;
+        width: 290px;
+        border: 10px solid rgb(214, 206, 207);
+        margin-left: 20px;
+        float: left;
+    }
+    
+    .image1 img {
+        height: 300px;
+        width: 290px;
+    
+    }
+    
+    .image1 h4 {
+        color: rgb(25, 115, 199);
+        text-align: center;
+        padding: 15px;
+    }
+    
+    .image1 p {
+        padding: 5px;
+        text-align: justify;
+    }
+    
+    .image1 button {
+        margin-left: 100px;
+        padding: 5px;
+    }
+    
+    .image1 button:hover {
+        background-color: green;
+        color: white;
+        border: 1px solid blue;
+    }
+    
+    #our-products h1 {
+        text-align: center;
+        color: rgb(25, 115, 199);
+        padding: 20px;
+    }
+    
+    .testimonial {
+        height: auto;
+        width: 100%;
+    
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    
+    .testimonial1 {
+        height: 300px;
+        width: 290px;
+        border: 10px solid rgb(214, 206, 207);
+        margin-top: 100px;
+        margin-left: 20px;
+        float: left;
+        border-radius: 40px 0px 40px;
+    }
+    
+    .testimonial h1 {
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    .testimonial1 img {
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        margin-left: 100px;
+        border: 10px solid rgb(214, 206, 207);
+    }
+    
+    .testimonial1 p {
+        text-align: justify;
+        padding: 10px;
+    }
+    
+    .testimonial1 h4 {
+        text-align: center;
+    }
+    
+    .footer1 {
+        width: 100%;
+        height: 200px;
+    
+    }
+    
+    .aboutus {
+        height: 350px;
+        width: 23%;
+    
+        float: left;
+        margin-left: 20px;
+    }
+    
+    .aboutus h1 {
+        text-align: center;
+        color: rgb(25, 115, 199);
+        margin-top: 50px;
+    
+    }
+    
+    .aboutus p {
+        height: 300px;
+        width: 290;
+        text-align: justify;
+        padding: 10px;
+    }
+    
+    .copyright {
+        width: 100%;
+        height: 100px;
+    
+    
+    }
+    
+    .copyright h2 {
+        text-align: center;
+        color: rgb(25, 115, 199);
+    }
+}
+/* Tablets, iPads (landscape) ---------- */
+@media screen and (min-width: 1024px){
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    /* body {
+                background-image: url(../image/backgroundimage2.jpg);
+                background-repeat: no-repeat;
+    background-color: rgba(127, 251, 255, 0.075);
+            } */
+    
+    header {
+    
+        border-bottom: 1px solid black;
+        height: 50px;
+        background-color: #18425426;
+        padding-top: 50px;
+    }
+    
+    #logo {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 50%;
+        font-size: 30px;
+        color: rgb(36, 36, 32);
+        float: left;
+        padding-bottom: 20px solid rgb(9, 71, 141);
+        margin-left: 20px;
+    
+    }
+    
+    nave {
+        float: right;
+        margin-top: 200px;
+    }
+    
+    span a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+        padding-left: 5px;
+        color: rgb(36, 87, 182);
+    
+    }
+    
+    .first-letter {
+        color: blue;
+    }
+    
+    #secend-letter {
+        color: orangered;
+    }
+    
+    #third-letter {
+        color: yellow;
+    }
+    
+    #furth-letter {
+        color: green !important;
+    }
+    
+    #fifth-letter {
+        color: red;
+    }
+    
+    span a:hover {
+        padding: 15px;
+        height: 15px;
+        width: 15px;
+        background-color: #00158c46;
+        color: rgb(236, 236, 229);
+    }
+    
+    #slider-section {
+        height: 500px;
+        width: 100%;
+    
+    }
+    
+    #slider-section img {
+        height: 500px;
+        width: 100%;
+    }
+    
+    #marquee-slider {
+        height: 50px;
+        width: 100%;
+    
+    }
+    
+    #marquee-slider h1 {
+        color: rgb(25, 115, 199);
+        margin-top: 20px;
+    }
+    
+    #our-products {
+        width: 100%;
+        height: auto;
+    
+    }
+    
+    .image1 {
+        height: 500px;
+        width: 290px;
+        border: 10px solid rgb(214, 206, 207);
+        margin-left: 20px;
+        float: left;
+    }
+    
+    .image1 img {
+        height: 300px;
+        width: 290px;
+    
+    }
+    
+    .image1 h4 {
+        color: rgb(25, 115, 199);
+        text-align: center;
+        padding: 15px;
+    }
+    
+    .image1 p {
+        padding: 5px;
+        text-align: justify;
+    }
+    
+    .image1 button {
+        margin-left: 100px;
+        padding: 5px;
+    }
+    
+    .image1 button:hover {
+        background-color: green;
+        color: white;
+        border: 1px solid blue;
+    }
+    
+    #our-products h1 {
+        text-align: center;
+        color: rgb(25, 115, 199);
+        padding: 20px;
+    }
+    
+    .testimonial {
+        height: auto;
+        width: 100%;
+    
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    
+    .testimonial1 {
+        height: 300px;
+        width: 290px;
+        border: 10px solid rgb(214, 206, 207);
+        margin-top: 100px;
+        margin-left: 20px;
+        float: left;
+        border-radius: 40px 0px 40px;
+    }
+    
+    .testimonial h1 {
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    .testimonial1 img {
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        margin-left: 100px;
+        border: 10px solid rgb(214, 206, 207);
+    }
+    
+    .testimonial1 p {
+        text-align: justify;
+        padding: 10px;
+    }
+    
+    .testimonial1 h4 {
+        text-align: center;
+    }
+    
+    .footer1 {
+        width: 100%;
+        height: 200px;
+    
+    }
+    
+    .aboutus {
+        height: 350px;
+        width: 23%;
+    
+        float: left;
+        margin-left: 20px;
+    }
+    
+    .aboutus h1 {
+        text-align: center;
+        color: rgb(25, 115, 199);
+        margin-top: 50px;
+    
+    }
+    
+    .aboutus p {
+        height: 300px;
+        width: 290;
+        text-align: justify;
+        padding: 10px;
+    }
+    
+    .copyright {
+        width: 100%;
+        height: 100px;
+    
+    
+    }
+    
+    .copyright h2 {
+        text-align: center;
+        color: rgb(25, 115, 199);
+    }
+}
+/* Desktops and laptops ---------- */
+@media screen and (min-width: 1224px){
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    /* body {
+                background-image: url(../image/backgroundimage2.jpg);
+                background-repeat: no-repeat;
+    background-color: rgba(127, 251, 255, 0.075);
+            } */
+    
+    header {
+    
+        border-bottom: 1px solid black;
+        height: 50px;
+        background-color: #18425426;
+        padding-top: 50px;
+    }
+    
+    #logo {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 50%;
+        font-size: 30px;
+        color: rgb(36, 36, 32);
+        float: left;
+        padding-bottom: 20px solid rgb(9, 71, 141);
+        margin-left: 20px;
+    
+    }
+    
+    nave {
+        float: right;
+        margin-top: 200px;
+    }
+    
+    span a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+        padding-left: 5px;
+        color: rgb(36, 87, 182);
+    
+    }
+    
+    .first-letter {
+        color: blue;
+    }
+    
+    #secend-letter {
+        color: orangered;
+    }
+    
+    #third-letter {
+        color: yellow;
+    }
+    
+    #furth-letter {
+        color: green !important;
+    }
+    
+    #fifth-letter {
+        color: red;
+    }
+    
+    span a:hover {
+        padding: 15px;
+        height: 15px;
+        width: 15px;
+        background-color: #00158c46;
+        color: rgb(236, 236, 229);
+    }
+    
+    #slider-section {
+        height: 500px;
+        width: 100%;
+    
+    }
+    
+    #slider-section img {
+        height: 500px;
+        width: 100%;
+    }
+    
+    #marquee-slider {
+        height: 50px;
+        width: 100%;
+    
+    }
+    
+    #marquee-slider h1 {
+        color: rgb(25, 115, 199);
+        margin-top: 20px;
+    }
+    
+    #our-products {
+        width: 100%;
+        height: auto;
+    
+    }
+    
+    .image1 {
+        height: 500px;
+        width: 290px;
+        border: 10px solid rgb(214, 206, 207);
+        margin-left: 20px;
+        float: left;
+    }
+    
+    .image1 img {
+        height: 300px;
+        width: 290px;
+    
+    }
+    
+    .image1 h4 {
+        color: rgb(25, 115, 199);
+        text-align: center;
+        padding: 15px;
+    }
+    
+    .image1 p {
+        padding: 5px;
+        text-align: justify;
+    }
+    
+    .image1 button {
+        margin-left: 100px;
+        padding: 5px;
+    }
+    
+    .image1 button:hover {
+        background-color: green;
+        color: white;
+        border: 1px solid blue;
+    }
+    
+    #our-products h1 {
+        text-align: center;
+        color: rgb(25, 115, 199);
+        padding: 20px;
+    }
+    
+    .testimonial {
+        height: auto;
+        width: 100%;
+    
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    
+    .testimonial1 {
+        height: 300px;
+        width: 290px;
+        border: 10px solid rgb(214, 206, 207);
+        margin-top: 100px;
+        margin-left: 20px;
+        float: left;
+        border-radius: 40px 0px 40px;
+    }
+    
+    .testimonial h1 {
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    .testimonial1 img {
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        margin-left: 100px;
+        border: 10px solid rgb(214, 206, 207);
+    }
+    
+    .testimonial1 p {
+        text-align: justify;
+        padding: 10px;
+    }
+    
+    .testimonial1 h4 {
+        text-align: center;
+    }
+    
+    .footer1 {
+        width: 100%;
+        height: 200px;
+    
+    }
+    
+    .aboutus {
+        height: 350px;
+        width: 23%;
+    
+        float: left;
+        margin-left: 20px;
+    }
+    
+    .aboutus h1 {
+        text-align: center;
+        color: rgb(25, 115, 199);
+        margin-top: 50px;
+    
+    }
+    
+    .aboutus p {
+        height: 300px;
+        width: 290;
+        text-align: justify;
+        padding: 10px;
+    }
+    
+    .copyright {
+        width: 100%;
+        height: 100px;
+    
+    
+    }
+    
+    .copyright h2 {
+        text-align: center;
+        color: rgb(25, 115, 199);
+    }
+}
+/* Large screens ---------- */
+@media screen and (min-width: 1824px){
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    /* body {
+                background-image: url(../image/backgroundimage2.jpg);
+                background-repeat: no-repeat;
+    background-color: rgba(127, 251, 255, 0.075);
+            } */
+    
+    header {
+    
+        border-bottom: 1px solid black;
+        height: 50px;
+        background-color: #18425426;
+        padding-top: 50px;
+    }
+    
+    #logo {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 50%;
+        font-size: 30px;
+        color: rgb(36, 36, 32);
+        float: left;
+        padding-bottom: 20px solid rgb(9, 71, 141);
+        margin-left: 20px;
+    
+    }
+    
+    nave {
+        float: right;
+        margin-top: 200px;
+    }
+    
+    span a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+        padding-left: 5px;
+        color: rgb(36, 87, 182);
+    
+    }
+    
+    .first-letter {
+        color: blue;
+    }
+    
+    #secend-letter {
+        color: orangered;
+    }
+    
+    #third-letter {
+        color: yellow;
+    }
+    
+    #furth-letter {
+        color: green !important;
+    }
+    
+    #fifth-letter {
+        color: red;
+    }
+    
+    span a:hover {
+        padding: 15px;
+        height: 15px;
+        width: 15px;
+        background-color: #00158c46;
+        color: rgb(236, 236, 229);
+    }
+    
+    #slider-section {
+        height: 500px;
+        width: 100%;
+    
+    }
+    
+    #slider-section img {
+        height: 500px;
+        width: 100%;
+    }
+    
+    #marquee-slider {
+        height: 50px;
+        width: 100%;
+    
+    }
+    
+    #marquee-slider h1 {
+        color: rgb(25, 115, 199);
+        margin-top: 20px;
+    }
+    
+    #our-products {
+        width: 100%;
+        height: auto;
+    
+    }
+    
+    .image1 {
+        height: 500px;
+        width: 290px;
+        border: 10px solid rgb(214, 206, 207);
+        margin-left: 20px;
+        float: left;
+    }
+    
+    .image1 img {
+        height: 300px;
+        width: 290px;
+    
+    }
+    
+    .image1 h4 {
+        color: rgb(25, 115, 199);
+        text-align: center;
+        padding: 15px;
+    }
+    
+    .image1 p {
+        padding: 5px;
+        text-align: justify;
+    }
+    
+    .image1 button {
+        margin-left: 100px;
+        padding: 5px;
+    }
+    
+    .image1 button:hover {
+        background-color: green;
+        color: white;
+        border: 1px solid blue;
+    }
+    
+    #our-products h1 {
+        text-align: center;
+        color: rgb(25, 115, 199);
+        padding: 20px;
+    }
+    
+    .testimonial {
+        height: auto;
+        width: 100%;
+    
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    
+    .testimonial1 {
+        height: 300px;
+        width: 290px;
+        border: 10px solid rgb(214, 206, 207);
+        margin-top: 100px;
+        margin-left: 20px;
+        float: left;
+        border-radius: 40px 0px 40px;
+    }
+    
+    .testimonial h1 {
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    .testimonial1 img {
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        margin-left: 100px;
+        border: 10px solid rgb(214, 206, 207);
+    }
+    
+    .testimonial1 p {
+        text-align: justify;
+        padding: 10px;
+    }
+    
+    .testimonial1 h4 {
+        text-align: center;
+    }
+    
+    .footer1 {
+        width: 100%;
+        height: 200px;
+    
+    }
+    
+    .aboutus {
+        height: 350px;
+        width: 23%;
+    
+        float: left;
+        margin-left: 20px;
+    }
+    
+    .aboutus h1 {
+        text-align: center;
+        color: rgb(25, 115, 199);
+        margin-top: 50px;
+    
+    }
+    
+    .aboutus p {
+        height: 300px;
+        width: 290;
+        text-align: justify;
+        padding: 10px;
+    }
+    
+    .copyright {
+        width: 100%;
+        height: 100px;
+    
+    
+    }
+    
+    .copyright h2 {
+        text-align: center;
+        color: rgb(25, 115, 199);
+    }
+}
